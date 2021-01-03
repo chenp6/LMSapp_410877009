@@ -586,7 +586,7 @@ public class Manager extends Account {
 							}
 						} else {
 							if (accountInCourse.length == 1) {
-								writeText.append("未設定 未設定 未設定");
+								writeText.append(" 未設定 未設定 未設定");
 							} else {
 								writeText.append(" " + nameInCourse[1]);
 								for (int i = 2; i < nameInCourse.length; i++) {
